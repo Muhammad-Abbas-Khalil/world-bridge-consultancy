@@ -662,6 +662,17 @@ footer {
         display: block;
     }
 
+    /* Fix mobile logo */
+    .logo {
+        font-size: 1.1rem;
+        /* Reduce font size */
+        gap: 0.3rem;
+    }
+
+    .logo span {
+        display: inline-block;
+    }
+
     .process-steps {
         grid-template-columns: 1fr;
     }
