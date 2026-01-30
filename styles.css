@@ -664,9 +664,11 @@ footer {
 
     /* Fix mobile logo */
     .logo {
-        font-size: 1.1rem;
-        /* Reduce font size */
+        font-size: 1.0rem;
+        /* Reduce font size slightly more */
         gap: 0.3rem;
+        white-space: nowrap;
+        /* Force single line */
     }
 
     .logo span {
